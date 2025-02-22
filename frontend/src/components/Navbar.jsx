@@ -6,11 +6,11 @@ export default function Navbar() {
             <div className='max-w-6xl mx-auto px-4'>
                 <div className="flex justify-between items-center h-16"> 
                     {/* Logo Placeholder */}
-                    <Link to="/" className="text-2xl font-bold text-blue-600">
+                    <Link to="/" className="text-2xl font-bold text-blue-900">
                     PolitScore</Link>
 
                     {/* {Navigation Links} */}
-                    <div className="hidden md:flex space/x/8">
+                    <div className="hidden md:flex space-x-8 ">
                       <Link to="/about" className='text-gray-700 hover:text-blue-600 transition-colors'>
                       About</Link>
                        <Link 

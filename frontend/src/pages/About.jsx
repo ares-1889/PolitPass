@@ -2,11 +2,11 @@ export default function About() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <section className="bg-blue-600 text-white py-20 px-4">
+      <section className="bg-blue-900 text-white py-20 px-4">
         <div className="max-w-6xl mx-auto text-center">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">About Us</h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-6">About PolitPass</h1>
           <p className="text-xl md:text-2xl">
-            Committed to creating lasting change in our communities
+            A systematic scoring framework aimed at evaluating Public servants, encompassing politicians, judges, police officers, administrators, and bankers,
           </p>
         </div>
       </section>
@@ -16,23 +16,20 @@ export default function About() {
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">Our Story</h2>
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">Furthermore</h2>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Founded in 2010, [NGO Name] began as a small community initiative 
-                aimed at addressing educational disparities. What started as a 
-                weekend tutoring program has now grown into a multi-faceted 
-                organization impacting thousands of lives annually.
+                Currently in Inception and Growth. The PolitScore framework, designed to assess alignment with key traits, promotes ethical governance, inclusivity, and professional development. Additionally, visualization tools offer policymakers dynamic methods for transparent, data-driven decision-making. While limitations such as nuanced trait measurement and contextual adaptability are acknowledged, this framework lays the foundation for targeted training and performance improvement in public service.
+
               </p>
               <p className="text-gray-600 leading-relaxed">
-                Our journey has been marked by collaborative efforts with local 
-                communities, government bodies, and international partners to 
-                create sustainable development solutions.
+                Public service is the backbone of societal functioning, with public servants entrusted to ensure justice, governance, and welfare. Effective public service influences public trust and institutional legitimacy. However, structured methods to evaluate the core traits underpinning public servant performance are often lacking. This project introduces a comprehensive framework that identifies ten essential traits and their subtraits, offering a nuanced understanding of their societal impact.
+
               </p>
             </div>
             <img 
-              src="/about-story.jpg" 
+              src="/src/assets/images/01.jpg" 
               alt="Our Story" 
-              className="rounded-xl shadow-lg w-full h-64 md:h-96 object-cover"
+              className="rounded-l shadow-lg w-full h-64 md:h-96 object-cover"
             />
           </div>
         </div>
@@ -42,18 +39,19 @@ export default function About() {
       <section className="bg-white py-16 px-4">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
           <div className="bg-blue-50 p-8 rounded-xl">
-            <h3 className="text-2xl font-bold text-blue-600 mb-4">Our Mission</h3>
+            <h3 className="text-2xl font-bold text-blue-900 mb-4">PolitScore Framework</h3>
             <p className="text-gray-600">
-              To empower underprivileged communities through education, healthcare, 
-              and sustainable development initiatives that create long-term, 
-              positive change.
+              The PolitScore framework, designed to assess alignment with key traits, promotes ethical governance, inclusivity, and professional development. Additionally, visualization tools offer policymakers dynamic methods for transparent, data-driven decision-making. While limitations such as nuanced trait measurement and contextual adaptability are acknowledged, this framework lays the foundation for targeted training and performance improvement in public service. <br className=""></br>
+              
+              The PolitScore framework utilizes a weighted scoring system to evaluate traits based on role-specific demands. Visualization tools, including dashboards and tier classifications, enable accessible interpretation for stakeholders. These tools are designed to promote transparency, trust, and data-driven decision-making, supporting professional development and targeted training programs.
+
             </p>
           </div>
           <div className="bg-green-50 p-8 rounded-xl">
-            <h3 className="text-2xl font-bold text-green-600 mb-4">Our Vision</h3>
+            <h3 className="text-2xl font-bold text-green-900 mb-4">Our Vision</h3>
             <p className="text-gray-600">
-              A world where every individual has access to basic necessities, 
-              quality education, and opportunities to reach their full potential.
+             In an ideal democracy, citizens hold the ultimate authority—the right to create laws, regulations, and constitutions—and choose public servants to serve within the frameworks they establish. Yet, in practice, this ideal is often subverted. Public servants, particularly political leaders, frequently craft rules that benefit themselves, make unrealistic promises during elections, and prioritize personal gains over public welfare. This creates confusion among citizens, leaving them uncertain about whom to trust or hold accountable. By introducing the PolitScore framework, which evaluates public servants based on ten essential traits, this project aims to empower citizens with a transparent, standardized method to assess their leaders. Such a system could strengthen democratic principles by ensuring that only individuals with strong PolitScore evaluations occupy positions of governance and public trust, paving the way for a truly representative and ethical democracy.
+
             </p>
           </div>
         </div>
@@ -65,18 +63,18 @@ export default function About() {
           <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">
             Meet Our Team
           </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            {[1, 2, 3].map((item) => (
+          <div className="grid md:grid-cols-1 gap-8">
+            {[1].map((item) => (
               <div key={item} className="bg-white p-6 rounded-xl shadow-md text-center">
                 <img 
-                  src={`/team-${item}.jpg`} 
+                  src={"/src/assets/images/Nabraj_Uncle.png"} 
                   alt="Team member" 
                   className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
                 />
-                <h3 className="text-xl font-semibold mb-2">John Doe</h3>
-                <p className="text-gray-600 mb-2">Position Title</p>
+                <h3 className="text-xl font-semibold mb-2">Dr.Nab Roshyara</h3>
+                <p className="text-gray-600 mb-2">Founder</p>
                 <p className="text-sm text-gray-500">
-                  Expertise in community development and project management
+                  I work as a programmer and mathematician. Currently I am working on a E-commerce Big data project and REST API calls with plentymarkets
                 </p>
               </div>
             ))}
@@ -85,7 +83,7 @@ export default function About() {
       </section>
 
       {/* Achievements */}
-      <section className="bg-gray-800 text-white py-16 px-4">
+      {/* <section className="bg-gray-800 text-white py-16 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-12">Our Impact</h2>
           <div className="grid md:grid-cols-4 gap-8 text-center">
@@ -107,7 +105,7 @@ export default function About() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

@@ -17,6 +17,7 @@ export default function ContactForm() {
     >
       {({ isSubmitting }) => (
         <Form className="max-w-2xl mx-auto space-y-6">
+          {/* Name Field */}
           <div>
             <label className="block text-gray-700 mb-2">Name</label>
             <Field 
@@ -30,7 +31,37 @@ export default function ContactForm() {
             />
           </div>
 
-          {/* Repeat similar structure for email and message fields */}
+          {/* Email */}
+          <div >
+            <label className="block text-gray-700 mb-2">Email</label>
+            <Field 
+              name="email" 
+              type="email"
+              className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none"
+            />
+            <ErrorMessage 
+              name="email" 
+              component="div" 
+              className="text-red-500 text-sm mt-1" 
+            />
+          </div>
+          
+
+          {/* Message Field */}
+          <div>
+            <label className="block text-gray-700 mb-2">Message</label>
+            <Field 
+              as="textarea"
+              name="message" 
+              rows="4"
+              className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none"
+            />
+            <ErrorMessage 
+              name="message" 
+              component="div" 
+              className="text-red-500 text-sm mt-1" 
+            />
+          </div>
 
           <button 
             type="submit" 
