@@ -31,7 +31,7 @@ export default function ContactForm() {
             />
           </div>
 
-          {/* Email Field */}
+          {/* Email */}
           <div >
             <label className="block text-gray-700 mb-2">Email</label>
             <Field 

@@ -7,13 +7,17 @@ export default function Creator() {
         <div className="bg-white rounded-xl shadow-md p-8">
           <div className="flex items-center gap-6 mb-6">
             <img 
-              src="/creator-avatar.jpg" 
+              src="/src/assets/images/Nabraj_Uncle.png" 
               alt="Creator" 
               className="w-32 h-32 rounded-full object-cover"
             />
             <div>
               <h3 className="text-xl font-semibold">Dr. Nab Roshyara</h3>
               <p className="text-gray-600">Founder</p>
+              <p> <a href="https://github.com/dr-roshyara" className="hover:text-blue-400 transition-colors">Github</a></p>
+              <p>
+                 <a href="https://www.linkedin.com/in/dr-nab-raj-roshyara-43420486/" className="hover:text-blue-400 transition-colors">LinkedIn</a>
+              </p>
             </div>
           </div>
           

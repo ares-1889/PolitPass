@@ -5,7 +5,7 @@ export default function Home() {
       <section className="py-20 px-4 bg-blue-900 text-white">
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            Welcome to PolitScore
+            Welcome to PolitPass
           </h1>
           <p className="text-xl mb-8">
             A holistic and dynamic approach to evaluating public servants’ effectiveness. By integrating ethical governance principles with data-driven methodologies.

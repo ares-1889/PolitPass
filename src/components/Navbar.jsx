@@ -7,7 +7,7 @@ export default function Navbar() {
                 <div className="flex justify-between items-center h-16"> 
                     {/* Logo Placeholder */}
                     <Link to="/" className="text-2xl font-bold text-blue-900">
-                    PolitScore</Link>
+                    PolitPass</Link>
 
                     {/* {Navigation Links} */}
                     <div className="hidden md:flex space-x-8 ">
